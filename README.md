@@ -2,7 +2,7 @@
 
 该清单为 PLCT 实验室 J139 MoonBit 软件开发实习生的可做任务清单、技术栈要求及对应的参考资料。
 
-大家可以在群里说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
+大家可以在群里和我说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
 
 ## MoonBit Core 社区贡献
 
@@ -81,7 +81,7 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 
 用 C 配合 MoonBit 编写出 libtorch 的 MoonBit Bindings，并且发布到 mooncakes。
 
-可以先支持某个系统（如 Windows 或 Linux）的某个计算平台（如 CUDA 或 CPU 甚至 ROC），然后再编写另一个平台的 bindings。
+可以先支持某个系统(如 Windows 或 Linux)的某个计算平台(如 CUDA 或 CPU 甚至 ROC)，然后再编写另一个平台的 bindings。
 
 #### 额外任务
 
@@ -89,6 +89,44 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 
 #### 参考资料
 
-- MoonBit Native FFI 的方法：https://github.com/moonbitlang/x/tree/main/fs/internal/ffi
-- MoonBit Native Headers（在下载的压缩包中）：https://www.moonbitlang.com/download/
-- libtorch：https://pytorch.org/
+- MoonBit Native FFI 的方法: https://github.com/moonbitlang/x/tree/main/fs/internal/ffi
+- MoonBit Native Headers (在下载的压缩包中): https://www.moonbitlang.com/download/
+- libtorch: https://pytorch.org/
+
+## MoonBit 字符串格式化库
+
+- Publisher: @Lampese
+- Assignment: -
+
+### 任务内容
+
+很多编程语言都有一个输出流函数叫做 prinf，它的意思是 print with format，也就是按照某种格式输出，比如我们在 C/C++ 中想要输出一个保留三位小数的 double 类型变量，我只需要这样做：
+
+```cpp
+double xunyoyo = 1114514.19190810
+printf("%.3lf", xunyoyo)
+```
+
+也有其他语言提供了更加泛化的思路，他们提供了一个单独的 fmt 库（比如 Go，虽然它们也做了 fmt.Printf），你可以用 fmt 来格式化字符串并输出。
+
+我们的任务就是做出这样一个库，来更加方便字符串的格式化输出。
+
+### 要求
+
+需要一定的学习技能和资料查询能力。
+
+### 任务预期
+
+编写一个 MoonBit 的 fmt 库并发布在 mooncakes 上。
+
+Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计上下功夫，看看如何设计更加合理。
+
+### 额外任务
+
+我 (Lampese) 之前写过一个把字符串加上终端格式或者字体样式的库 moonbit-chalk，可以把它拿过来用并且给 fmt 加一个颜色/格式语法。
+
+### 参考资料
+
+- C/C++ printf: https://en.cppreference.com/w/c/io/fprintf
+- Go fmt：https://pkg.go.dev/fmt
+- moonbit-chalk: https://github.com/Lampese/moonbit-chalk
