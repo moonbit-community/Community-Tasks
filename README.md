@@ -1,8 +1,10 @@
 # PLCT 实验室-MoonBit-J139-可做任务清单
 
-该清单为 PLCT 实验室 J139 MoonBit 软件开发实习生的可做任务清单、技术栈要求及对应的参考资料。
+该清单为 PLCT 实验室 J139 MoonBit 软件开发实习生岗位的可做任务清单、技术栈要求及对应的参考资料。
 
 大家可以在群里和我说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
+
+[目前我们岗位还很缺人！很缺人！很缺人！欢迎在校生来投递简历！](https://github.com/plctlab/weloveinterns/blob/master/open-internships.md#j139-moonbit-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E7%94%9F20241104%E5%BC%80%E6%94%BE100%E5%90%8D)
 
 ## MoonBit Core 社区贡献
 
