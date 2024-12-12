@@ -61,3 +61,34 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 - MoonBit 社区的 Parser Combinator: https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/
 - MoonBit X: https://github.com/moonbitlang/x
 - MoonBit Quickcheck: https://github.com/moonbitlang/quickcheck
+
+## libtorch 的 MoonBit 绑定
+
+- Publisher: @Lampese @tonyfettes
+- Assignment(XML): -
+
+#### 任务内容
+
+libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训练，发行方式为 dll 或者 so，在 C++ 上可以非常简单的使用。
+
+当前 MoonBit 在计算需求上需要在 Native 后端上增加一个 libtorch 的绑定，让 MoonBit 代码编译为 Native 代码之后也可以调用 libtorch，这可能还会帮助 torch.mbt 的进一步开发。
+
+#### 要求
+
+需要一定的 C 编程能力，对 pytorch 或者 libtorch 的 API 比较熟悉。
+
+#### 任务预期
+
+用 C 配合 MoonBit 编写出 libtorch 的 MoonBit Bindings，并且发布到 mooncakes。
+
+可以先支持某个系统（如 Windows 或 Linux）的某个计算平台（如 CUDA 或 CPU 甚至 ROC），然后再编写另一个平台的 bindings。
+
+#### 额外任务
+
+可以尝试使用自己辨析的 libtorch 库复现一些十分简单的论文和 torch 的需求。
+
+#### 参考资料
+
+- MoonBit Native FFI 的方法：https://github.com/moonbitlang/x/tree/main/fs/internal/ffi
+- MoonBit Native Headers（在下载的压缩包中）：https://www.moonbitlang.com/download/
+- libtorch：https://pytorch.org/
