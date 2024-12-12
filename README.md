@@ -105,8 +105,8 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 很多编程语言都有一个输出流函数叫做 prinf，它的意思是 print with format，也就是按照某种格式输出，比如我们在 C/C++ 中想要输出一个保留三位小数的 double 类型变量，我只需要这样做：
 
 ```cpp
-double xunyoyo = 1114514.19190810
-printf("%.3lf", xunyoyo)
+double xunyoyo = 1114514.19190810;
+printf("%.3lf", xunyoyo);
 ```
 
 也有其他语言提供了更加泛化的思路，他们提供了一个单独的 fmt 库（比如 Go，虽然它们也做了 fmt.Printf），你可以用 fmt 来格式化字符串并输出。
@@ -122,6 +122,8 @@ printf("%.3lf", xunyoyo)
 编写一个 MoonBit 的 fmt 库并发布在 mooncakes 上。
 
 Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计上下功夫，看看如何设计更加合理。
+
+该库完全有机会加入 moonbitlang/x 甚至 moonbitlang/core。
 
 ### 额外任务
 
