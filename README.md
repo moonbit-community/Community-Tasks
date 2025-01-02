@@ -98,7 +98,7 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 ## MoonBit 字符串格式化库
 
 - Publisher: @Lampese
-- Assignment: -
+- Assignment: @kesmeey
 
 ### 任务内容
 
@@ -134,3 +134,7 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 - C/C++ printf: https://en.cppreference.com/w/c/io/fprintf
 - Go fmt：https://pkg.go.dev/fmt
 - moonbit-chalk: https://github.com/Lampese/moonbit-chalk
+
+### 产出
+
+https://github.com/kesmeey/fmt
