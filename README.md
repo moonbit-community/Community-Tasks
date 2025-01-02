@@ -4,6 +4,8 @@
 
 大家可以在群里和我说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
 
+而且在有 Assignment 之后也可以给对应的产出仓库发 pr，因为它们不一定做完了所有要求或者额外任务。
+
 [目前我们岗位还很缺人！很缺人！很缺人！欢迎在校生来投递简历！](https://github.com/plctlab/weloveinterns/blob/master/open-internships.md#j139-moonbit-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E7%94%9F20241104%E5%BC%80%E6%94%BE100%E5%90%8D)
 
 ## MoonBit Core 社区贡献
@@ -28,7 +30,7 @@ MoonBit Core 是 MoonBit 目前的标准库，在它的 Issues 中有许多标�
 ## XML/YAML Parser
 
 - Publisher: @Lampese
-- Assignment(XML): -
+- Assignment(XML): @RuifengFu
 - Assignment(YAML): -
 
 #### 任务内容
@@ -138,3 +140,25 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 ### 产出
 
 https://github.com/kesmeey/fmt
+
+## MoonBit Path 路径处理库
+
+- Publisher: @Lampese
+
+- Assignment: @xunyoyo @kesmeey
+
+#### 任务内容
+
+在各种各样语言的标准库中 Path 仓库经常是一个不可或缺的存在，它们是一种路径的抽象，可以对路径之间进行拼接或者安全的 back 和 forward 操作。
+
+注意所有在此之中的过程都应该是纯函数，而不应该涉及系统 IO。
+
+#### 要求
+
+（可能）需要对不同平台的路径有一定了解，包括对转义和他们之间的差异。（其实接到任务之后开始学习也可以的）
+
+#### 参考资料
+- Rust std::path(推荐): https://doc.rust-lang.org/std/path/struct.Path.html
+- Nodejs path module: https://nodejs.org/docs/latest/api/path.html
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+
