@@ -66,6 +66,9 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 - MoonBit X: https://github.com/moonbitlang/x
 - MoonBit Quickcheck: https://github.com/moonbitlang/quickcheck
 
+#### 产出
+xml: https://github.com/RuifengFu/XMLParser
+
 ## libtorch 的 MoonBit 绑定
 
 - Publisher: @Lampese @tonyfettes
@@ -102,7 +105,7 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 - Publisher: @Lampese
 - Assignment: @kesmeey
 
-### 任务内容
+#### 任务内容
 
 很多编程语言都有一个输出流函数叫做 prinf，它的意思是 print with format，也就是按照某种格式输出，比如我们在 C/C++ 中想要输出一个保留三位小数的 double 类型变量，我只需要这样做：
 
@@ -115,11 +118,11 @@ printf("%.3lf", xunyoyo);
 
 我们的任务就是做出这样一个库，来更加方便字符串的格式化输出。
 
-### 要求
+#### 要求
 
 需要一定的学习技能和资料查询能力。
 
-### 任务预期
+#### 任务预期
 
 编写一个 MoonBit 的 fmt 库并发布在 mooncakes 上。
 
@@ -127,17 +130,17 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 
 该库完全有机会加入 moonbitlang/x 甚至 moonbitlang/core。
 
-### 额外任务
+#### 额外任务
 
 我 (Lampese) 之前写过一个把字符串加上终端格式或者字体样式的库 moonbit-chalk，可以把它拿过来用并且给 fmt 加一个颜色/格式语法。
 
-### 参考资料
+#### 参考资料
 
 - C/C++ printf: https://en.cppreference.com/w/c/io/fprintf
 - Go fmt：https://pkg.go.dev/fmt
 - moonbit-chalk: https://github.com/Lampese/moonbit-chalk
 
-### 产出
+#### 产出
 
 https://github.com/kesmeey/fmt
 
@@ -152,6 +155,8 @@ https://github.com/kesmeey/fmt
 在各种各样语言的标准库中 Path 仓库经常是一个不可或缺的存在，它们是一种路径的抽象，可以对路径之间进行拼接或者安全的 back 和 forward 操作。
 
 注意所有在此之中的过程都应该是纯函数，而不应该涉及系统 IO。
+
+ 该需求的仓库完全有需求合入 moonbitlang/x。
 
 #### 要求
 
