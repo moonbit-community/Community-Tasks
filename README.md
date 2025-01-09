@@ -12,7 +12,7 @@
 
 - Publisher: @Lampese
 
-- Assignment: @E-M-T-F
+- Assignment: @ -
 
 #### 任务内容
 
@@ -31,7 +31,7 @@ MoonBit Core 是 MoonBit 目前的标准库，在它的 Issues 中有许多标�
 
 - Publisher: @Lampese
 - Assignment(XML): @RuifengFu
-- Assignment(YAML): -
+- Assignment(YAML): @E-M-T-F
 
 #### 任务内容
 
