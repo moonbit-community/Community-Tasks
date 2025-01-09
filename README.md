@@ -12,7 +12,7 @@
 
 - Publisher: @Lampese
 
-- Assignment: -
+- Assignment: @E-M-T-F
 
 #### 任务内容
 
