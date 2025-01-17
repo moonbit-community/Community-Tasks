@@ -167,3 +167,49 @@ https://github.com/kesmeey/fmt
 - Nodejs path module: https://nodejs.org/docs/latest/api/path.html
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
 
+
+
+## calculus-numerical 微积分数值求解库
+
+- Publisher: @Lampese @KCN-judu
+- Assignment(Doc): -
+- Assignment(Complex): -
+- Assignment(Linear Algebra): -
+- Assignment(Numerical Integration): -
+- Assignment(ODE solver): -
+
+
+
+#### 任务内容
+
+这是一个使用[**MoonBit**](https://www.moonbitlang.cn/)编写的微积分数值求解库，旨在填补MoonBit生态在科学计算领域的空白。
+
+库内实现了常见的微积分操作，包括但不限于数值积分、微分等。通过提供多种数值解法和高效的算法实现，本库可以应用于科学计算、工程模拟、数据分析等多个领域。
+
+参与贡献的方法详见 README.md的 **How to Contribute（如何参与贡献）**章节
+
+详细任务内容参考[TODO.md](https://github.com/moonbit-community/calculus-numerical/blob/main/TODO.md)
+
+
+
+#### 要求
+
+需要一定的学习技能和资料查询能力。
+
+目前阶段有多个方向可供选择，只需要擅长至少一个即可（如果愿意接到任务开始学习也很欢迎）：
+
+- 文档编写
+- 复数运算
+- 线性代数
+- 数值积分
+- 微分方程求解
+- 多项式
+- 泰勒展开
+
+
+
+#### 参考资料
+
+主要参考对象是[GNU Scientific Library](https://www.gnu.org/software/gsl/#development)
+
+这是[GSL的仓库](https://savannah.gnu.org/git/?group=gsl)
