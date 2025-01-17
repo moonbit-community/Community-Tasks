@@ -184,7 +184,7 @@ https://github.com/kesmeey/fmt
 
 库内实现了常见的微积分操作，包括但不限于数值积分、微分等。通过提供多种数值解法和高效的算法实现，本库可以应用于科学计算、工程模拟、数据分析等多个领域。
 
-参与贡献的方法详见 README.md的 **How to Contribute（如何参与贡献）**章节
+参与贡献的方法详见 README.md的 **How to Contribute（如何参与贡献）** 章节
 
 详细任务内容参考[TODO.md](https://github.com/moonbit-community/calculus-numerical/blob/main/TODO.md)
 
