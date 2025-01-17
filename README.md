@@ -1,8 +1,10 @@
 # PLCT 实验室-MoonBit-J139-可做任务清单
 
-该清单为 PLCT 实验室 J139 MoonBit 软件开发实习生岗位的可做任务清单、技术栈要求及对应的参考资料。
+该清单为 中科院软件所 PLCT 实验室甲辰计划 J139 MoonBit 软件开发实习生岗位的可做任务清单、技术栈要求及对应的参考资料。
 
 大家可以在群里和我说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
+
+也欢迎各位 MoonBit 社区成员和实习生来这里发布自己的需求和任务！(就是不保证会做就是了哈哈哈)
 
 而且在有 Assignment 之后也可以给对应的产出仓库发 pr，因为它们不一定做完了所有要求或者额外任务。
 
@@ -167,8 +169,6 @@ https://github.com/kesmeey/fmt
 - Nodejs path module: https://nodejs.org/docs/latest/api/path.html
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
 
-
-
 ## calculus-numerical 微积分数值求解库
 
 - Publisher: @Lampese @KCN-judu
@@ -177,8 +177,6 @@ https://github.com/kesmeey/fmt
 - Assignment(Linear Algebra): -
 - Assignment(Numerical Integration): -
 - Assignment(ODE solver): -
-
-
 
 #### 任务内容
 
@@ -189,8 +187,6 @@ https://github.com/kesmeey/fmt
 参与贡献的方法详见 README.md的 **How to Contribute（如何参与贡献）**章节
 
 详细任务内容参考[TODO.md](https://github.com/moonbit-community/calculus-numerical/blob/main/TODO.md)
-
-
 
 #### 要求
 
@@ -205,8 +201,6 @@ https://github.com/kesmeey/fmt
 - 微分方程求解
 - 多项式
 - 泰勒展开
-
-
 
 #### 参考资料
 
