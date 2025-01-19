@@ -150,7 +150,7 @@ https://github.com/kesmeey/fmt
 
 - Publisher: @Lampese
 
-- Assignment: @xunyoyo @kesmeey
+- Assignment: @xunyoyo @kesmeey @CMoonBack
 
 #### 任务内容
 
