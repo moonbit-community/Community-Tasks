@@ -74,7 +74,13 @@ xml: https://github.com/RuifengFu/XMLParser
 ## libtorch 的 MoonBit 绑定
 
 - Publisher: @Lampese @tonyfettes
-- Assignment(XML): -
+- Assignment: @liuly0322
+
+#### 产出
+
+WIP，欢迎尝试/issue/PR！
+
+tch-mbt: <https://github.com/liuly0322/tch-mbt>
 
 #### 任务内容
 
