@@ -29,6 +29,8 @@ MoonBit Core 是 MoonBit 目前的标准库，在它的 Issues 中有许多标�
 #### 参考资料
 - MoonBit Core: https://github.com/moonbitlang/core
 
+<br>
+
 ## XML/YAML Parser
 
 - Publisher: @Lampese
@@ -71,6 +73,8 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 #### 产出
 xml: https://github.com/RuifengFu/XMLParser
 
+<br>
+
 ## libtorch 的 MoonBit 绑定
 
 - Publisher: @Lampese @tonyfettes
@@ -107,6 +111,8 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 - MoonBit Native FFI 的方法: https://github.com/moonbitlang/x/tree/main/fs/internal/ffi
 - MoonBit Native Headers (在下载的压缩包中): https://www.moonbitlang.com/download/
 - libtorch: https://pytorch.org/
+
+<br>
 
 ## MoonBit 字符串格式化库
 
@@ -152,6 +158,8 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 
 https://github.com/kesmeey/fmt
 
+<br>
+
 ## MoonBit Path 路径处理库
 
 - Publisher: @Lampese
@@ -175,41 +183,66 @@ https://github.com/kesmeey/fmt
 - Nodejs path module: https://nodejs.org/docs/latest/api/path.html
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
 
-## calculus-numerical 微积分数值求解库
+<br>
+
+## Luna Flow 科学计算生态链
 
 - Publisher: @Lampese @KCN-judu
-- Assignment(Doc): -
-- Assignment(Complex): -
-- Assignment(Linear Algebra): -
-- Assignment(Numerical Integration): -
-- Assignment(ODE solver): -
+
+#### 简介
+
+这是一个[**MoonBit**](https://www.moonbitlang.cn/)科学计算生态链，科学计算和数据分析的工具集。
+
+contact: zhehao0827@163.com
+
+org link: [Luna Flow](https://github.com/Luna-Flow)
 
 #### 任务内容
 
-这是一个使用[**MoonBit**](https://www.moonbitlang.cn/)编写的微积分数值求解库，旨在填补MoonBit生态在科学计算领域的空白。
+技术路线和依赖关系如下图所示：
 
-库内实现了常见的微积分操作，包括但不限于数值积分、微分等。通过提供多种数值解法和高效的算法实现，本库可以应用于科学计算、工程模拟、数据分析等多个领域。
+<img src="./img/luna-flow-deps.png" height=200px>
 
-参与贡献的方法详见 README.md的 **How to Contribute（如何参与贡献）** 章节
+目前，由于[Kaida-Amethyst/math](https://github.com/Kaida-Amethyst/Moonbit-Math)有着**极高的质量和精度**，在Luna Flow项目中使用其作为基础的数学库，在项目中出现的**“luna-math”**均指代这一数学库。
 
-详细任务内容参考[TODO.md](https://github.com/moonbit-community/calculus-numerical/blob/main/TODO.md)
+**linear-algebra**不采用社区中的[moonbit-community/linalg](https://github.com/moonbit-community/linalg)是因为其采用二维数组的方式实现，而[Luna-Flow/linear-algebra](https://github.com/Luna-Flow/linear-algebra)采用的是一维数组索引计算实现的，目前对于二维数组的实现方式在性能上是否会有影响尚未明了。因此采用相对稳妥的一维数组索引计算实现方法。
+
+**Luna Flow**主要分为三个阶段：
+
+- **Phase 1** 基础库：
+  - luna-complex 和 luna-utils
+  - linear-algebra 和 calculus-numerical
+
+- **Phase 2** 高阶库：
+  - probability-statistics
+  - calculus-symbolic
+- **Phase 3** 科学计算应用：
+  - 基于以上的基础库和高阶库开发在科学计算相关领域的应用
+
+现在该项目处在**Phase 1**，目前主要集中在对**calculus-numerical**的开发。
+
+目前在以下内容非常缺人：
+
+- doc编写
+- 代码测试
+- luna-complex 和 luna-utils 的维护
+- linear-algebra 的维护
 
 #### 要求
 
+对于上述领域有经验者优先（但是也非常鼓励零基础的同学来项目中学习）。
+
 需要一定的学习技能和资料查询能力。
 
-目前阶段有多个方向可供选择，只需要擅长至少一个即可（如果愿意接到任务开始学习也很欢迎）：
-
-- 文档编写
-- 复数运算
-- 线性代数
-- 数值积分
-- 微分方程求解
-- 多项式
-- 泰勒展开
+有兴趣的可以发邮件详询。
 
 #### 参考资料
 
-主要参考对象是[GNU Scientific Library](https://www.gnu.org/software/gsl/#development)
+GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/gsl/doc/html/index.html)
 
-这是[GSL的仓库](https://savannah.gnu.org/git/?group=gsl)
+书籍参考:
+
+- [ELEMENTARY NUMERICAL ANALYSIS](https://hlevkin.com/hlevkin/60numalgs/Fortran/conte-deBoor-ELEMENTARY%20NUMERICAL%20ANALYSIS.pdf)
+- [Numerical Optimization](https://www.math.uci.edu/~qnie/Publications/NumericalOptimization.pdf)
+
+- [Handbook of mathematical functions with formulas, graphs, and mathematical tables](https://archive.org/details/handbookofmathem1964abra/mode/2up)
