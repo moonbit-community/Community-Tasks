@@ -203,7 +203,7 @@ org link: [Luna Flow](https://github.com/Luna-Flow)
 
 <img src="./img/luna-flow-deps.png" height=200px>
 
-目前，由于[Kaida-Amethyst/math](https://github.com/Kaida-Amethyst/Moonbit-Math)有着**极高的质量和精度**，在Luna Flow项目中使用其作为基础的数学库，在项目中出现的**“luna-math”**均指代这一数学库。
+目前，由于[Kaida-Amethyst/math](https://github.com/Kaida-Amethyst/Moonbit-Math)有着**极高的质量和精度**，在Luna Flow项目中使用其作为基础的数学库，在项目中出现的**luna-math**均指代这一数学库。
 
 **linear-algebra**不采用社区中的[moonbit-community/linalg](https://github.com/moonbit-community/linalg)是因为其采用二维数组的方式实现，而[Luna-Flow/linear-algebra](https://github.com/Luna-Flow/linear-algebra)采用的是一维数组索引计算实现的，目前对于二维数组的实现方式在性能上是否会有影响尚未明了。因此采用相对稳妥的一维数组索引计算实现方法。
 
