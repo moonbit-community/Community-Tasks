@@ -246,3 +246,35 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 - [Numerical Optimization](https://www.math.uci.edu/~qnie/Publications/NumericalOptimization.pdf)
 
 - [Handbook of mathematical functions with formulas, graphs, and mathematical tables](https://archive.org/details/handbookofmathem1964abra/mode/2up)
+
+
+## immut_deque
+
+- Publisher: @illusory0x0
+
+- Assignment: -
+
+#### 简介
+
+现在 [moonbit core](https://github.com/moonbitlang/core/tree/main/immut) 里面的immutable containers 缺少 immut_deque, 这个repo可以用来填补空缺，如果在 Moonbit 社区广泛应用，就有可能加入core的！
+
+#### 任务内容 
+
+补充文档和API, API 设计参考 [haskell deque](https://hackage.haskell.org/package/deque-0.4.4.1/docs/Deque-Lazy.html) 这个包。
+
+添加更多的helper function, 虽然有`uncons`和`unsnoc`这两个elimator和
+`cons`和`snoc`这两个constructor, 但是会比直接操作内部的两个链表慢很多的. 
+
+
+#### 要求
+
+需要一定的学习技能和资料查询能力。 
+
+#### 任务预期
+
+提高文档覆盖率，添加更多 helper function 和benchmark
+
+#### 参考资料
+
+- [moonbit snapshot-tests](https://docs.moonbitlang.com/en/latest/language/tests.html#snapshot-tests) 写moonbit的test非常的方便
+- [quickcheck](https://github.com/moonbitlang/quickcheck) 使用 property check 来测试 immut_deque 的性质
