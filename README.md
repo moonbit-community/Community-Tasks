@@ -262,8 +262,8 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 
 补充文档和API, API 设计参考 [haskell deque](https://hackage.haskell.org/package/deque-0.4.4.1/docs/Deque-Lazy.html) 这个包。
 
-添加更多的helper function, 虽然有`uncons`和`unsnoc`这两个elimator和
-`cons`和`snoc`这两个constructor, 但是会比直接操作内部的两个链表慢很多的. 
+添加更多的helper function, 虽然有`uncons`和`unsnoc`这两个 eliminator 和
+`cons`和`snoc`这两个 constructor , 但是会比直接操作内部的两个链表慢很多的. 
 
 
 #### 要求
@@ -278,3 +278,7 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 
 - [moonbit snapshot-tests](https://docs.moonbitlang.com/en/latest/language/tests.html#snapshot-tests) 写moonbit的test非常的方便
 - [quickcheck](https://github.com/moonbitlang/quickcheck) 使用 property check 来测试 immut_deque 的性质
+
+#### 产出
+
+https://github.com/moonbit-community/immut_deque
