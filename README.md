@@ -282,3 +282,36 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 #### 产出
 
 https://github.com/moonbit-community/immut_deque
+
+## URL Router
+
+- Publisher: -
+- Assignment: -
+
+#### 简介 
+
+现在MoonBit通过[Rabbit-TEA](https://github.com/Yoorkin/rabbit-tea)已经能够编写多页面的web应用，
+但是还没有一个好用的URL Router。未来如果希望使用MoonBit开发http server，这个包也是必不可少的。 
+
+#### 任务内容
+
+实现一个URL Router, 支持解析输入的URL字符串，并接受用户定义的路由规则，然后根据规则匹配URL，执行对应的动作。
+
+#### 要求
+
+需要一定的学习技能和资料查询能力, 了解或者愿意学习The Elm Architecture和rabbit-tea。
+
+#### 任务预期
+
+完成任务内容，提供使用文档、示例和测试。满足在rabbit-tea中使用的需求。
+
+#### 参考资料
+
+- [相关issue](https://github.com/Yoorkin/rabbit-tea/issues/9)
+- [Elm guide](https://guide.elm-lang.org/)
+- [Rabbit-TEA examples](https://github.com/Yoorkin/rabbit-tea/tree/main/src/example)
+
+#### 产出
+
+将编写的包开源至moonbit-community。
+
