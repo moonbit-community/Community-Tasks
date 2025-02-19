@@ -278,3 +278,7 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 
 - [moonbit snapshot-tests](https://docs.moonbitlang.com/en/latest/language/tests.html#snapshot-tests) 写moonbit的test非常的方便
 - [quickcheck](https://github.com/moonbitlang/quickcheck) 使用 property check 来测试 immut_deque 的性质
+
+#### 产出
+
+https://github.com/moonbit-community/immut_deque
