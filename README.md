@@ -315,3 +315,36 @@ https://github.com/moonbit-community/immut_deque
 
 将编写的包开源至moonbit-community。
 
+## Rabbit-TEA & Tailwind CSS 4 项目模版
+
+- Publisher: -
+- Assignment: -
+
+#### 简介
+
+Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss 来快速开发前端应用。
+之前已经有了一个基于tailwindcss3的模版[rabbibt-tea-tailwind](https://github.com/Yoorkin/rabbit-tea-tailwind), 
+但是tailwindcss4已经发布，我们需要一个新的模版项目。
+
+#### 任务内容
+
+创建一个在 Rabbit-TEA 中使用 Tailwind css 4 的模版项目，
+参考rabbit-tea-tailwind中的vscode配置，让Tailwind CSS IntelliSense插件能在`.mbt`文件中工作。
+
+#### 要求
+
+需要一定的学习技能和资料查询能力, 了解 tailwindcss 和 rabbit-tea。
+
+#### 任务预期
+
+完成任务内容。
+
+#### 参考资料
+
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Rabbit-TEA](https://github.com/Yoorkin/rabbit-tea)
+- [rabbibt-tea-tailwind](https://github.com/Yoorkin/rabbit-tea-tailwind)
+
+#### 产出
+
+将编写的包开源至moonbit-community。
