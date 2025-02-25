@@ -352,7 +352,7 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 ## 文本搜索包
 
 - Publisher: -
-- Assignment: -
+- Assignment: @xunyoyo
 
 #### 简介
 
