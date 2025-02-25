@@ -348,3 +348,41 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 #### 产出
 
 将编写的包开源至moonbit-community。
+
+## 文本搜索包
+
+- Publisher: -
+- Assignment: -
+
+#### 简介
+
+本项目旨在创建一个文本搜索包，包含多种全文搜索算法的实现，例如 KMP（Knuth-Morris-Pratt）算法。该包将用于高效地在文本中搜索子字符串（例如文本编辑器），并提供易于使用的接口。
+
+#### 任务内容
+
+1. 实现 KMP 算法
+2. 实现其他常用的文本搜索算法（如 Rabin-Karp、Boyer-Moore 等，可选）。
+3. 提供清晰的 API 文档和使用示例。
+4. 编写单元测试以验证算法的正确性。
+5. 合理配置项目CI，包括format检查、覆盖率测试。
+
+#### 要求
+
+需要一定的编程技能和算法知识，了解常用的文本搜索算法及其实现。
+
+#### 任务预期
+
+完成任务内容，创建一个易于使用的文本搜索包，至少包含KMP实现。
+
+#### 参考资料
+
+- [Knuth-Morris-Pratt Algorithm](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)
+- [Rabin-Karp Algorithm](https://en.wikipedia.org/wiki/Rabin–Karp_algorithm)
+- [Boyer-Moore Algorithm](https://en.wikipedia.org/wiki/Boyer–Moore_string-search_algorithm)
+
+#### 产出
+
+将编写的包开源至 moonbit-community。
+
+
+
