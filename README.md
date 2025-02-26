@@ -420,4 +420,36 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 
 将编写的包开源至 moonbit-community。
 
+## diet包
 
+- Publisher: -
+- Assignment: -
+
+#### 简介
+
+diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用于表示和操作离散区间集合。与传统的集合表示方法不同，diet能够高效地处理大范围的连续区间，并支持快速的插入、删除和查询操作。diet在编译器优化、静态分析和其他需要处理大量区间的应用中具有广泛的应用前景。
+
+#### 任务内容
+
+1. 参考OCaml的diet模块，在MoonBit中完成diet包。
+2. 实现基本的树操作，包括插入、删除、查询和合并。
+3. 编写测试以验证实现的正确性和性能。
+4. 完善文档和用例，提供详细的API说明和使用示例。
+5. 合理配置项目CI，包括格式检查、覆盖率测试和性能基准测试。
+
+#### 要求
+
+需要一定的编程技能和数据结构知识，能够阅读OCaml源码，并具备函数式编程的基础。
+
+#### 任务预期
+
+完成任务内容，创建一个功能完备的diet包，实现OCaml diet模块提供的功能，并确保其在MoonBit中的高效运行。
+
+#### 参考资料
+
+- [Functional Pearls: Diets for Fat Sets](https://web.engr.oregonstate.edu/~erwig/papers/Diet_JFP98.pdf)
+- [OCaml Diet](https://github.com/mirage/ocaml-diet?tab=readme-ov-file)
+
+#### 产出
+
+将编写的包开源至 moonbit-community。
