@@ -384,37 +384,36 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 
 将编写的包开源至 moonbit-community。
 
-## seq包
+## lazy-list包
 
 - Publisher: -
 - Assignment: -
 
 #### 简介
 
-和 `moonbitlang/core/immut/list` 类似，seq是一个包含多个同一个类型的元素的列表。
-与list不同的是，seq是*delayed list*，这意味着只有在消耗处需要时，内部的元素才会被计算出来。
-用户可以惰性地构建或者变换这个seq列表，这个列表甚至可以是无限长的。
+和 `moonbitlang/core/immut/list` 类似，lazy-list是一个包含多个同一个类型的元素的列表。
+与list不同的是，lazy-list是*delayed list*，这意味着只有在消耗处需要时，内部的元素才会被计算出来。
+用户可以惰性地构建或者变换这个列表，这个列表甚至可以是无限长的。
 
 #### 任务内容
 
-1. 参考OCaml的seq模块，在MoonBit中完成seq包。
+1. 根据参考资料给出的elm lazy-list，在MoonBit中完成lazy-list包。
 2. 编写测试以验证实现的正确性。
 3. 完善文档和用例。
 4. 合理配置项目CI，包括format检查、覆盖率测试。
 
 #### 要求
 
-需要一定的编程技能和函数式编程知识，能够阅读OCaml源码。
+需要一定的编程技能和函数式编程知识，了解Haskell/SML等编程语言。
 
 #### 任务预期
 
-完成任务内容，创建一个seq包，实现OCaml seq模块提供的所有功能。
+完成任务内容，创建一个lazy-list包。
 
 #### 参考资料
 
+- [elm lazy-list](https://github.com/elm-community/lazy-list)
 - [OCaml Seq](https://ocaml.org/manual/5.2/api/Seq.html)
-- [stdlib/seq.mli](https://github.com/ocaml/ocaml/blob/trunk/stdlib/seq.mli)
-- [stdlib/seq.ml](https://github.com/ocaml/ocaml/blob/trunk/stdlib/seq.ml)
 
 #### 产出
 
