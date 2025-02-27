@@ -452,3 +452,37 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 #### 产出
 
 将编写的包开源至 moonbit-community。
+
+## CSV Package
+
+- Publisher: -
+- Assignment: -
+
+#### 简介
+
+本项目旨在创建一个CSV解析包，能够处理各种格式的CSV文件，并将其转换为易于操作的数据结构。该包将用于高效地解析CSV文件，并提供易于使用的接口。
+
+#### 任务内容
+
+1. 使用moonyacc或者手写parser实现CSV解析器，能够处理不同格式的CSV文件。
+2. 提供清晰的API文档和使用示例。
+3. 编写单元测试以验证解析器的正确性，使用 [csv-spectrum](https://github.com/max-mapper/csv-spectrum) 提供的CSV文件进行测试。
+4. 合理配置项目CI，包括格式检查、覆盖率测试。
+
+#### 要求
+
+需要一定的编程技能和文件解析知识，了解常用的CSV解析方法及其实现。
+
+#### 任务预期
+
+完成任务内容，创建一个易于使用的CSV解析包，能够处理各种格式的CSV文件，并确保其高效运行。
+
+#### 参考资料
+
+- [CSV File Format](https://en.wikipedia.org/wiki/Comma-separated_values)
+- [CSV Spectrum](https://github.com/max-mapper/csv-spectrum)
+- [moonyacc](https://github.com/moonbitlang/moonyacc)
+
+#### 产出
+
+将CSV包开源至 moonbit-community。
