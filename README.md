@@ -455,11 +455,6 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 
 ## Lazy Initialized Value
 
-- Publisher: -
-- Assignment: -
-
-#### 简介
-
 Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问时才会计算。这种技
 术不仅可以用来避免重复计算和实现懒加载，还可以用来处理循环依赖等问题。
 
@@ -492,3 +487,69 @@ Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问
 #### 产出
 
 将编写的包开源至 moonbit-community。
+
+## CSV Package
+
+- Publisher: -
+- Assignment: -
+
+#### 简介
+
+本项目旨在创建一个CSV解析包，能够处理各种格式的CSV文件，并将其转换为易于操作的数据结构。该包将用于高效地解析CSV文件，并提供易于使用的接口。
+
+#### 任务内容
+
+1. 使用moonyacc或者手写parser实现CSV解析器，能够处理不同格式的CSV文件。
+2. 提供清晰的API文档和使用示例。
+3. 编写单元测试以验证解析器的正确性，使用 [csv-spectrum](https://github.com/max-mapper/csv-spectrum) 提供的CSV文件进行测试。
+4. 合理配置项目CI，包括格式检查、覆盖率测试。
+
+#### 要求
+
+需要一定的编程技能和文件解析知识，了解常用的CSV解析方法及其实现。
+
+#### 任务预期
+
+完成任务内容，创建一个易于使用的CSV解析包，能够处理各种格式的CSV文件，并确保其高效运行。
+
+#### 参考资料
+
+- [CSV File Format](https://en.wikipedia.org/wiki/Comma-separated_values)
+- [CSV Spectrum](https://github.com/max-mapper/csv-spectrum)
+- [moonyacc](https://github.com/moonbitlang/moonyacc)
+
+#### 产出
+
+将CSV包开源至 moonbit-community。
+
+## unicode工具函数包
+
+unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种函数来测试 Unicode 码点的属性。与 `x/encoding` 包不同，unicode-util 专注于提供对 Unicode 码点属性的查询和测试功能，而**不涉及编码和解码操作**。
+
+#### 任务内容
+
+1. 参考 Go 的 unicode 包，在 MoonBit 中完成 unicode 包。
+2. 实现以下功能：
+   - 判断 Unicode 码点是否为字母、数字、标点符号等。
+   - 检查 Unicode 码点的类别（如大写字母、小写字母、数字等）。
+   - 提供对 Unicode 码点范围的支持。
+   - 提供 Unicode 相关常量。
+3. 编写测试以验证实现的正确性。
+4. 完善文档和用例，提供详细的 API 说明和使用示例。
+5. 合理配置项目 CI，包括格式检查、覆盖率测试。
+
+#### 要求
+
+需要一定的编程技能和对 Unicode 标准的了解，能够阅读和参考 Go 源码。
+
+#### 任务预期
+
+完成任务内容，创建一个功能完备的 unicode 包，实现 Go unicode 包提供的功能。
+
+#### 参考资料
+
+- [Go Unicode](https://pkg.go.dev/unicode)
+
+#### 产出
+
+将包开源至 moonbit-community。
