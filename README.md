@@ -453,6 +453,41 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 
 将编写的包开源至 moonbit-community。
 
+## Lazy Initialized Value
+
+Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问时才会计算。这种技
+术不仅可以用来避免重复计算和实现懒加载，还可以用来处理循环依赖等问题。
+
+#### 任务内容
+
+1. 可以参考 Rust 里面的 [LazyCell](https://doc.rust-lang.org/std/cell/struct.LazyCell.html) 和 OCaml 里面的 [Lazy 模块](https://ocaml.org/manual/5.3/api/Lazy.html) ，实现一个 Lazy Initialized
+   Value 的包，支持延迟初始化。
+2. 编写测试以验证实现的正确性。
+
+#### 要求
+
+需要一定的编程技能和数据结构知识。
+
+#### 任务预期
+
+完成任务内容，创建一个功能完备的 lazy 包，实现 OCaml Lazy 模块提供的功能（不包括模式匹配）。具体而言，需要实现：
+
+- 类型 `Lazy[T]`
+- 函数 `new[T](f: () -> T) -> Lazy[T]`
+- 函数 `force[T](self : Lazy[T]) -> T`
+- 函数 `get[T](self : Lazy[T]) -> T?`
+- 函数 `map[T](self : Lazy[T], f: (T) -> U) -> Lazy[U]`
+- 为 `Lazy[T]` 实现 `Show`, `Default` trait 。
+
+#### 参考资料
+
+- OCaml 的 lazy 模块：https://ocaml.org/manual/5.1/api/Lazy.html
+- Rust 的 LazyCell ： https://doc.rust-lang.org/std/cell/struct.LazyCell.html
+
+#### 产出
+
+将编写的包开源至 moonbit-community。
+
 ## CSV Package
 
 - Publisher: -
