@@ -452,3 +452,49 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 #### 产出
 
 将编写的包开源至 moonbit-community。
+
+<br>
+
+## TOML Parser
+
+- Publisher: -
+- Assignment: -
+
+#### 任务内容
+
+[TOML](https://toml.io/en) 是一个市面上常见的配置文件格式，它的语法简单易懂，适合用于配置文件的编写。我们希望在MoonBit中实现一个 v1.0.0 的 TOML 解析器，用于解析TOML格式的配置文件。
+
+#### 要求
+
+需要一定的学习技能和资料查询能力。
+
+#### 任务预期
+
+编写 TOML 的解析器并存在放某个仓库中，以下是可以考虑的技术方案：
+
+1. Parser Combinator
+2. Parser Generator，如 [moonyacc](https://github.com/moonbitlang/moonyacc)
+
+但是不用这些，自己手写也可以，最后编写相关测试确保解析库运行正常，并且能够通过 [toml 官方的测试](https://github.com/toml-lang/toml-test) 。
+
+项目完善后可以向 moonbitlang/x 提出 PR 并且合并该功能进入存储库，作为 MoonBit 标准库拓展的一部分。
+
+#### 额外任务
+
+MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于测试 Parser 类的软件非常有用，可以自己学习并且用它来测试我们写的 Parser。
+
+也可以考虑不止支持从 String 中进行解析而是从 Iter[Char] 中解析来获得更高的性能。
+
+#### 参考资料
+
+- TOML: https://toml.io/en/
+- toml-test: https://github.com/toml-lang/toml-test
+- MoonBit Core 中的 JSON Parser: https://github.com/moonbitlang/core/tree/main/json
+- MoonBit 社区的 Parser Combinator: https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/
+- moonyacc: https://github.com/moonbitlang/moonyacc
+- MoonBit X: https://github.com/moonbitlang/x
+- MoonBit Quickcheck: https://github.com/moonbitlang/quickcheck
+
+#### 产出
+
+将编写的包开源至 moonbit-community。
