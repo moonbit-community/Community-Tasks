@@ -594,3 +594,32 @@ unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种
 #### 产出
 
 将包开源至 moonbit-community。
+
+## dotenv 包
+    
+dotenv 文件（通常为 `.env`）被广泛用于存储环境变量，以便在开发和部署时能够灵活配置应用程序，而无需硬编码敏感信息。本项目希望在 MoonBit 语言中实现一个 dotenv 解析库，能够读取 `.env` 文件，并将其中的键值对加载到程序中。
+
+#### 任务内容
+1. 解析 `.env` 文件内容。
+2. 支持指定文件名，例如 `.env.production`。
+3. 其他复杂的功能，例如变量插值，环境变量的覆盖等。
+4. 编写测试以验证实现的正确性和性能。
+5. 完善文档和用例，提供详细的 API 说明和使用示例。
+6. 合理配置项目 CI，包括格式检查、覆盖率测试，注意 Windows/Linux/macOS 的兼容性。
+
+#### 要求
+
+需要一定的学习技能和资料查询能力。
+
+#### 任务预期
+
+完成任务内容，创建一个 dotenv 包，能够满足应用开发人员的基本需求。
+
+#### 参考资料
+
+- [npm dotenv](https://www.npmjs.com/package/dotenv)
+- [PyPI dotenv](https://pypi.org/project/python-dotenv/)
+
+#### 产出
+
+将包开源至 moonbit-community。
