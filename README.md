@@ -452,3 +452,35 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 #### 产出
 
 将编写的包开源至 moonbit-community。
+
+## unicode工具函数包
+
+unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种函数来测试 Unicode 码点的属性。与 `x/encoding` 包不同，unicode-util 专注于提供对 Unicode 码点属性的查询和测试功能，而**不涉及编码和解码操作**。
+
+#### 任务内容
+
+1. 参考 Go 的 unicode 包，在 MoonBit 中完成 unicode 包。
+2. 实现以下功能：
+   - 判断 Unicode 码点是否为字母、数字、标点符号等。
+   - 检查 Unicode 码点的类别（如大写字母、小写字母、数字等）。
+   - 提供对 Unicode 码点范围的支持。
+   - 提供 Unicode 相关常量。
+3. 编写测试以验证实现的正确性。
+4. 完善文档和用例，提供详细的 API 说明和使用示例。
+5. 合理配置项目 CI，包括格式检查、覆盖率测试。
+
+#### 要求
+
+需要一定的编程技能和对 Unicode 标准的了解，能够阅读和参考 Go 源码。
+
+#### 任务预期
+
+完成任务内容，创建一个功能完备的 unicode 包，实现 Go unicode 包提供的功能。
+
+#### 参考资料
+
+- [Go Unicode](https://pkg.go.dev/unicode)
+
+#### 产出
+
+将包开源至 moonbit-community。
