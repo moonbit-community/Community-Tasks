@@ -84,7 +84,7 @@ xml: https://github.com/RuifengFu/XMLParser
 
 WIP，欢迎尝试/issue/PR！
 
-tch-mbt: <https://github.com/liuly0322/tch-mbt>
+tch-mbt: <https://github.com/moonbit-community/tch-mbt>
 
 #### 任务内容
 
@@ -318,7 +318,7 @@ https://github.com/moonbit-community/immut_deque
 ## Rabbit-TEA & Tailwind CSS 4 项目模版
 
 - Publisher: -
-- Assignment: -
+- Assignment: @liuly0322
 
 #### 简介
 
@@ -347,7 +347,7 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 
 #### 产出
 
-将编写的包开源至moonbit-community。
+<https://github.com/moonbit-community/rabbit-tea-tailwind4>
 
 ## 文本搜索包
 
