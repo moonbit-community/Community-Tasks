@@ -2,10 +2,10 @@
 title: PLCT 实验室-MoonBit-J139-可做任务清单
 nav_order: 1
 permalink: /
-toc: true  
+toc: true
 ---
 
-获得更好的阅读体验：https://moonbit-community.github.io/PLCT-J139-Tasks/
+获得更好的阅读体验：<https://moonbit-community.github.io/PLCT-J139-Tasks/>
 
 该清单为 中科院软件所 PLCT 实验室甲辰计划 J139 MoonBit 软件开发实习生岗位的可做任务清单、技术栈要求及对应的参考资料。
 
@@ -16,8 +16,6 @@ toc: true
 而且在有 Assignment 之后也可以给对应的产出仓库发 pr，因为它们不一定做完了所有要求或者额外任务。
 
 [目前我们岗位还很缺人！很缺人！很缺人！欢迎在校生来投递简历！](https://github.com/plctlab/weloveinterns/blob/master/open-internships.md#j139-moonbit-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E7%94%9F20241104%E5%BC%80%E6%94%BE100%E5%90%8D)
-
-
 
 ## MoonBit Core 社区贡献
 
@@ -36,9 +34,8 @@ MoonBit Core 是 MoonBit 目前的标准库，在它的 Issues 中有许多标�
 需要一定的社区沟通能力和进阶的 Git 操作能力。
 
 ### 参考资料
-- MoonBit Core: https://github.com/moonbitlang/core
 
-
+- MoonBit Core: <https://github.com/moonbitlang/core>
 
 ## XML/YAML Parser
 
@@ -72,28 +69,22 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 
 这部分资料明显不全，希望大家可以自己发挥自己的能力运用搜索引擎和 AI 查找编写 Parser 的方法等等。
 
-- XML: https://zh.wikipedia.org/wiki/XML
-- YAML: https://zh.wikipedia.org/wiki/YAML
-- MoonBit Core 中的 JSON Parser: https://github.com/moonbitlang/core/tree/main/json
-- MoonBit 社区的 Parser Combinator: https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/
-- MoonBit X: https://github.com/moonbitlang/x
-- MoonBit Quickcheck: https://github.com/moonbitlang/quickcheck
+- XML: <https://zh.wikipedia.org/wiki/XML>
+- YAML: <https://zh.wikipedia.org/wiki/YAML>
+- MoonBit Core 中的 JSON Parser: <https://github.com/moonbitlang/core/tree/main/json>
+- MoonBit 社区的 Parser Combinator: <https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/>
+- MoonBit X: <https://github.com/moonbitlang/x>
+- MoonBit Quickcheck: <https://github.com/moonbitlang/quickcheck>
 
 ### 产出
-xml: https://github.com/RuifengFu/XMLParser
 
-
+- XMLParser: <https://github.com/moonbit-community/XMLParser>
+- YAMLParser: <https://github.com/moonbit-community/YAMLParser>
 
 ## libtorch 的 MoonBit 绑定
 
 - Publisher: @Lampese @tonyfettes
 - Assignment: @liuly0322
-
-### 产出
-
-WIP，欢迎尝试/issue/PR！
-
-tch-mbt: <https://github.com/moonbit-community/tch-mbt>
 
 ### 任务内容
 
@@ -109,7 +100,7 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 
 用 C 配合 MoonBit 编写出 libtorch 的 MoonBit Bindings，并且发布到 mooncakes。
 
-可以先支持某个系统(如 Windows 或 Linux)的某个计算平台(如 CUDA 或 CPU 甚至 ROC)，然后再编写另一个平台的 bindings。
+可以先支持某个系统 (如 Windows 或 Linux) 的某个计算平台 (如 CUDA 或 CPU 甚至 ROC)，然后再编写另一个平台的 bindings。
 
 ### 额外任务
 
@@ -117,11 +108,15 @@ libtorch 是 pytorch 的 C++ 版本，支持 CPU 端和 GPU 端的部署和训�
 
 ### 参考资料
 
-- MoonBit Native FFI 的方法: https://github.com/moonbitlang/x/tree/main/fs/internal/ffi
-- MoonBit Native Headers (在下载的压缩包中): https://www.moonbitlang.com/download/
-- libtorch: https://pytorch.org/
+- MoonBit Native FFI 的方法：<https://github.com/moonbitlang/x/tree/main/fs/internal/ffi>
+- MoonBit Native Headers (在下载的压缩包中): <https://www.moonbitlang.com/download/>
+- libtorch: <https://pytorch.org/>
 
+### 产出
 
+WIP，欢迎尝试/issue/PR！
+
+<https://github.com/moonbit-community/tch-mbt>
 
 ## MoonBit 字符串格式化库
 
@@ -159,15 +154,13 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 
 ### 参考资料
 
-- C/C++ printf: https://en.cppreference.com/w/c/io/fprintf
-- Go fmt：https://pkg.go.dev/fmt
-- moonbit-chalk: https://github.com/Lampese/moonbit-chalk
+- C/C++ printf: <https://en.cppreference.com/w/c/io/fprintf>
+- Go fmt: <https://pkg.go.dev/fmt>
+- moonbit-chalk: <https://github.com/Lampese/moonbit-chalk>
 
 ### 产出
 
-https://github.com/kesmeey/fmt
-
-
+<https://github.com/kesmeey/fmt>
 
 ## MoonBit Path 路径处理库
 
@@ -181,18 +174,17 @@ https://github.com/kesmeey/fmt
 
 注意所有在此之中的过程都应该是纯函数，而不应该涉及系统 IO。
 
- 该需求的仓库完全有需求合入 moonbitlang/x。
+该需求的仓库完全有需求合入 moonbitlang/x。
 
 ### 要求
 
 （可能）需要对不同平台的路径有一定了解，包括对转义和他们之间的差异。（其实接到任务之后开始学习也可以的）
 
 ### 参考资料
-- Rust std::path(推荐): https://doc.rust-lang.org/std/path/struct.Path.html
-- Nodejs path module: https://nodejs.org/docs/latest/api/path.html
-- Python pathlib: https://docs.python.org/3/library/pathlib.html
 
-
+- Rust std::path(推荐): <https://doc.rust-lang.org/std/path/struct.Path.html>
+- Nodejs path module: <https://nodejs.org/docs/latest/api/path.html>
+- Python pathlib: <https://docs.python.org/3/library/pathlib.html>
 
 ## Luna Flow 科学计算生态链
 
@@ -212,7 +204,7 @@ org link: [Luna Flow](https://github.com/Luna-Flow)
 
 <img src="./img/luna-flow-deps.png" height=200px>
 
-目前，由于[Kaida-Amethyst/math](https://github.com/Kaida-Amethyst/Moonbit-Math)有着**极高的质量和精度**，在Luna Flow项目中使用其作为基础的数学库，在项目中出现的**luna-math**均指代这一数学库。
+目前，由于[Kaida-Amethyst/math](https://github.com/Kaida-Amethyst/Moonbit-Math)有着**极高的质量和精度**，在 Luna Flow 项目中使用其作为基础的数学库，在项目中出现的**luna-math**均指代这一数学库。
 
 **linear-algebra**不采用社区中的[moonbit-community/linalg](https://github.com/moonbit-community/linalg)是因为其采用二维数组的方式实现，而[Luna-Flow/linear-algebra](https://github.com/Luna-Flow/linear-algebra)采用的是一维数组索引计算实现的，目前对于二维数组的实现方式在性能上是否会有影响尚未明了。因此采用相对稳妥的一维数组索引计算实现方法。
 
@@ -232,7 +224,7 @@ org link: [Luna Flow](https://github.com/Luna-Flow)
 
 目前在以下内容非常缺人：
 
-- doc编写
+- doc 编写
 - 代码测试
 - luna-complex 和 luna-utils 的维护
 - linear-algebra 的维护
@@ -247,16 +239,14 @@ org link: [Luna Flow](https://github.com/Luna-Flow)
 
 ### 参考资料
 
-GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/gsl/doc/html/index.html)
+GSL 文档：[GNU Scientific Library Documentation](https://www.gnu.org/software/gsl/doc/html/index.html)
 
-书籍参考:
+书籍参考：
 
 - [ELEMENTARY NUMERICAL ANALYSIS](https://hlevkin.com/hlevkin/60numalgs/Fortran/conte-deBoor-ELEMENTARY%20NUMERICAL%20ANALYSIS.pdf)
 - [Numerical Optimization](https://www.math.uci.edu/~qnie/Publications/NumericalOptimization.pdf)
 
 - [Handbook of mathematical functions with formulas, graphs, and mathematical tables](https://archive.org/details/handbookofmathem1964abra/mode/2up)
-
-
 
 ## immut_deque
 
@@ -266,65 +256,62 @@ GSL文档: [GNU Scientific Library Documentation](https://www.gnu.org/software/g
 
 ### 简介
 
-现在 [moonbit core](https://github.com/moonbitlang/core/tree/main/immut) 里面的immutable containers 缺少 immut_deque, 这个repo可以用来填补空缺，如果在 Moonbit 社区广泛应用，就有可能加入core的！
+现在 [moonbit core](https://github.com/moonbitlang/core/tree/main/immut) 里面的 immutable containers 缺少 immut_deque, 这个 repo 可以用来填补空缺，如果在 Moonbit 社区广泛应用，就有可能加入 core 的！
 
-### 任务内容 
+### 任务内容
 
-补充文档和API, API 设计参考 [haskell deque](https://hackage.haskell.org/package/deque-0.4.4.1/docs/Deque-Lazy.html) 这个包。
+补充文档和 API, API 设计参考 [haskell deque](https://hackage.haskell.org/package/deque-0.4.4.1/docs/Deque-Lazy.html) 这个包。
 
-添加更多的helper function, 虽然有`uncons`和`unsnoc`这两个 eliminator 和
-`cons`和`snoc`这两个 constructor , 但是会比直接操作内部的两个链表慢很多的. 
+添加更多的 helper function, 虽然有 `uncons` 和 `unsnoc` 这两个 eliminator 和 `cons` 和 `snoc` 这两个 constructor, 但是会比直接操作内部的两个链表慢很多的。
 
 ### 要求
 
-需要一定的学习技能和资料查询能力。 
+需要一定的学习技能和资料查询能力。
 
 ### 任务预期
 
-提高文档覆盖率，添加更多 helper function 和benchmark
+提高文档覆盖率，添加更多 helper function 和 benchmark
 
 ### 参考资料
 
-- [moonbit snapshot-tests](https://docs.moonbitlang.com/en/latest/language/tests.html#snapshot-tests) 写moonbit的test非常的方便
+- [moonbit snapshot-tests](https://docs.moonbitlang.com/en/latest/language/tests.html#snapshot-tests) 写 moonbit 的 test 非常的方便
 - [quickcheck](https://github.com/moonbitlang/quickcheck) 使用 property check 来测试 immut_deque 的性质
 
 ### 产出
 
-https://github.com/moonbit-community/immut_deque
+<https://github.com/moonbit-community/immut_deque>
 
 ## URL Router
 
 - Publisher: -
 - Assignment: -
 
-### 简介 
+### 简介
 
-现在MoonBit通过[Rabbit-TEA](https://github.com/Yoorkin/rabbit-tea)已经能够编写多页面的web应用，
-但是还没有一个好用的URL Router。未来如果希望使用MoonBit开发http server，这个包也是必不可少的。 
+现在 MoonBit 通过[Rabbit-TEA](https://github.com/Yoorkin/rabbit-tea)已经能够编写多页面的 web 应用，
+但是还没有一个好用的 URL Router。未来如果希望使用 MoonBit 开发 http server，这个包也是必不可少的。
 
 ### 任务内容
 
-实现一个URL Router, 支持解析输入的URL字符串，并接受用户定义的路由规则，然后根据规则匹配URL，执行对应的动作。
+实现一个 URL Router, 支持解析输入的 URL 字符串，并接受用户定义的路由规则，然后根据规则匹配 URL，执行对应的动作。
 
 ### 要求
 
-需要一定的学习技能和资料查询能力, 了解或者愿意学习The Elm Architecture和rabbit-tea。
+需要一定的学习技能和资料查询能力，了解或者愿意学习 The Elm Architecture 和 rabbit-tea。
 
 ### 任务预期
 
-完成任务内容，提供使用文档、示例和测试。满足在rabbit-tea中使用的需求。
+完成任务内容，提供使用文档、示例和测试。满足在 rabbit-tea 中使用的需求。
 
 ### 参考资料
 
-- [相关issue](https://github.com/Yoorkin/rabbit-tea/issues/9)
+- [相关 issue](https://github.com/Yoorkin/rabbit-tea/issues/9)
 - [Elm guide](https://guide.elm-lang.org/)
 - [Rabbit-TEA examples](https://github.com/Yoorkin/rabbit-tea/tree/main/src/example)
 
 ### 产出
 
-将编写的包开源至moonbit-community。
-
-
+将编写的包开源至 moonbit-community。
 
 ## Rabbit-TEA & Tailwind CSS 4 项目模版
 
@@ -334,17 +321,17 @@ https://github.com/moonbit-community/immut_deque
 ### 简介
 
 Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss 来快速开发前端应用。
-之前已经有了一个基于tailwindcss3的模版[rabbibt-tea-tailwind](https://github.com/Yoorkin/rabbit-tea-tailwind), 
-但是tailwindcss4已经发布，我们需要一个新的模版项目。
+之前已经有了一个基于 tailwindcss3 的模版[rabbibt-tea-tailwind](https://github.com/Yoorkin/rabbit-tea-tailwind),
+但是 tailwindcss4 已经发布，我们需要一个新的模版项目。
 
 ### 任务内容
 
 创建一个在 Rabbit-TEA 中使用 Tailwind css 4 的模版项目，
-参考rabbit-tea-tailwind中的vscode配置，让Tailwind CSS IntelliSense插件能在`.mbt`文件中工作。
+参考 rabbit-tea-tailwind 中的 vscode 配置，让 Tailwind CSS IntelliSense 插件能在`.mbt`文件中工作。
 
 ### 要求
 
-需要一定的学习技能和资料查询能力, 了解 tailwindcss 和 rabbit-tea。
+需要一定的学习技能和资料查询能力，了解 tailwindcss 和 rabbit-tea。
 
 ### 任务预期
 
@@ -359,8 +346,6 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 ### 产出
 
 <https://github.com/moonbit-community/rabbit-tea-tailwind4>
-
-
 
 ## 文本搜索包
 
@@ -377,7 +362,7 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 2. 实现其他常用的文本搜索算法（如 Rabin-Karp、Boyer-Moore 等，可选）。
 3. 提供清晰的 API 文档和使用示例。
 4. 编写单元测试以验证算法的正确性。
-5. 合理配置项目CI，包括format检查、覆盖率测试。
+5. 合理配置项目 CI，包括 format 检查、覆盖率测试。
 
 ### 要求
 
@@ -385,7 +370,7 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 
 ### 任务预期
 
-完成任务内容，创建一个易于使用的文本搜索包，至少包含KMP实现。
+完成任务内容，创建一个易于使用的文本搜索包，至少包含 KMP 实现。
 
 ### 参考资料
 
@@ -395,35 +380,33 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 
 ### 产出
 
-https://github.com/moonbit-community/NyaSearch
+<https://github.com/moonbit-community/NyaSearch>
 
-
-
-## lazy-list包
+## lazy-list 包
 
 - Publisher: -
 - Assignment: -
 
 ### 简介
 
-和 `moonbitlang/core/immut/list` 类似，lazy-list是一个包含多个同一个类型的元素的列表。
-与list不同的是，lazy-list是*delayed list*，这意味着只有在消耗处需要时，内部的元素才会被计算出来。
+和 `moonbitlang/core/immut/list` 类似，lazy-list 是一个包含多个同一个类型的元素的列表。
+与 list 不同的是，lazy-list 是*delayed list*，这意味着只有在消耗处需要时，内部的元素才会被计算出来。
 用户可以惰性地构建或者变换这个列表，这个列表甚至可以是无限长的。
 
 ### 任务内容
 
-1. 根据参考资料给出的elm lazy-list，在MoonBit中完成lazy-list包。
+1. 根据参考资料给出的 elm lazy-list，在 MoonBit 中完成 lazy-list 包。
 2. 编写测试以验证实现的正确性。
 3. 完善文档和用例。
-4. 合理配置项目CI，包括format检查、覆盖率测试。
+4. 合理配置项目 CI，包括 format 检查、覆盖率测试。
 
 ### 要求
 
-需要一定的编程技能和函数式编程知识，了解Haskell/SML等编程语言。
+需要一定的编程技能和函数式编程知识，了解 Haskell/SML 等编程语言。
 
 ### 任务预期
 
-完成任务内容，创建一个lazy-list包。
+完成任务内容，创建一个 lazy-list 包。
 
 ### 参考资料
 
@@ -434,32 +417,30 @@ https://github.com/moonbit-community/NyaSearch
 
 将编写的包开源至 moonbit-community。
 
-
-
-## diet包
+## diet 包
 
 - Publisher: -
 - Assignment: -
 
 ### 简介
 
-diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用于表示和操作离散区间集合。与传统的集合表示方法不同，diet能够高效地处理大范围的连续区间，并支持快速的插入、删除和查询操作。diet在编译器优化、静态分析和其他需要处理大量区间的应用中具有广泛的应用前景。
+diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用于表示和操作离散区间集合。与传统的集合表示方法不同，diet 能够高效地处理大范围的连续区间，并支持快速的插入、删除和查询操作。diet 在编译器优化、静态分析和其他需要处理大量区间的应用中具有广泛的应用前景。
 
 ### 任务内容
 
-1. 参考OCaml的diet模块，在MoonBit中完成diet包。
+1. 参考 OCaml 的 diet 模块，在 MoonBit 中完成 diet 包。
 2. 实现基本的树操作，包括插入、删除、查询和合并。
 3. 编写测试以验证实现的正确性和性能。
-4. 完善文档和用例，提供详细的API说明和使用示例。
-5. 合理配置项目CI，包括格式检查、覆盖率测试和性能基准测试。
+4. 完善文档和用例，提供详细的 API 说明和使用示例。
+5. 合理配置项目 CI，包括格式检查、覆盖率测试和性能基准测试。
 
 ### 要求
 
-需要一定的编程技能和数据结构知识，能够阅读OCaml源码，并具备函数式编程的基础。
+需要一定的编程技能和数据结构知识，能够阅读 OCaml 源码，并具备函数式编程的基础。
 
 ### 任务预期
 
-完成任务内容，创建一个功能完备的diet包，实现OCaml diet模块提供的功能，并确保其在MoonBit中的高效运行。
+完成任务内容，创建一个功能完备的 diet 包，实现 OCaml diet 模块提供的功能，并确保其在 MoonBit 中的高效运行。
 
 ### 参考资料
 
@@ -474,7 +455,7 @@ diet（Discrete Interval Encoding Trees）是一种高效的数据结构，用�
 
 ### 任务内容
 
-[TOML](https://toml.io/en) 是一个市面上常见的配置文件格式，它的语法简单易懂，适合用于配置文件的编写。我们希望在MoonBit中实现一个 v1.0.0 的 TOML 解析器，用于解析TOML格式的配置文件。
+[TOML](https://toml.io/en) 是一个市面上常见的配置文件格式，它的语法简单易懂，适合用于配置文件的编写。我们希望在 MoonBit 中实现一个 v1.0.0 的 TOML 解析器，用于解析 TOML 格式的配置文件。
 
 ### 要求
 
@@ -499,19 +480,17 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 
 ### 参考资料
 
-- TOML: https://toml.io/en/
-- toml-test: https://github.com/toml-lang/toml-test
-- MoonBit Core 中的 JSON Parser: https://github.com/moonbitlang/core/tree/main/json
-- MoonBit 社区的 Parser Combinator: https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/
-- moonyacc: https://github.com/moonbitlang/moonyacc
-- MoonBit X: https://github.com/moonbitlang/x
-- MoonBit Quickcheck: https://github.com/moonbitlang/quickcheck
+- TOML: <https://toml.io/en/>
+- toml-test: <https://github.com/toml-lang/toml-test>
+- MoonBit Core 中的 JSON Parser: <https://github.com/moonbitlang/core/tree/main/json>
+- MoonBit 社区的 Parser Combinator: <https://mooncakes.io/docs/#/peter-jerry-ye/parser-combinator/>
+- moonyacc: <https://github.com/moonbitlang/moonyacc>
+- MoonBit X: <https://github.com/moonbitlang/x>
+- MoonBit Quickcheck: <https://github.com/moonbitlang/quickcheck>
 
 ### 产出
 
 将编写的包开源至 moonbit-community。
-
-
 
 ## Lazy Initialized Value
 
@@ -541,14 +520,12 @@ Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问
 
 ### 参考资料
 
-- OCaml 的 lazy 模块：https://ocaml.org/manual/5.1/api/Lazy.html
-- Rust 的 LazyCell ： https://doc.rust-lang.org/std/cell/struct.LazyCell.html
+- OCaml 的 lazy 模块：<https://ocaml.org/manual/5.1/api/Lazy.html>
+- Rust 的 LazyCell：<https://doc.rust-lang.org/std/cell/struct.LazyCell.html>
 
 ### 产出
 
 将编写的包开源至 moonbit-community。
-
-
 
 ## CSV Package
 
@@ -557,22 +534,22 @@ Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问
 
 ### 简介
 
-本项目旨在创建一个CSV解析包，能够处理各种格式的CSV文件，并将其转换为易于操作的数据结构。该包将用于高效地解析CSV文件，并提供易于使用的接口。
+本项目旨在创建一个 CSV 解析包，能够处理各种格式的 CSV 文件，并将其转换为易于操作的数据结构。该包将用于高效地解析 CSV 文件，并提供易于使用的接口。
 
 ### 任务内容
 
-1. 使用moonyacc或者手写parser实现CSV解析器，能够处理不同格式的CSV文件。
-2. 提供清晰的API文档和使用示例。
-3. 编写单元测试以验证解析器的正确性，使用 [csv-spectrum](https://github.com/max-mapper/csv-spectrum) 提供的CSV文件进行测试。
-4. 合理配置项目CI，包括格式检查、覆盖率测试。
+1. 使用 moonyacc 或者手写 parser 实现 CSV 解析器，能够处理不同格式的 CSV 文件。
+2. 提供清晰的 API 文档和使用示例。
+3. 编写单元测试以验证解析器的正确性，使用 [csv-spectrum](https://github.com/max-mapper/csv-spectrum) 提供的 CSV 文件进行测试。
+4. 合理配置项目 CI，包括格式检查、覆盖率测试。
 
 ### 要求
 
-需要一定的编程技能和文件解析知识，了解常用的CSV解析方法及其实现。
+需要一定的编程技能和文件解析知识，了解常用的 CSV 解析方法及其实现。
 
 ### 任务预期
 
-完成任务内容，创建一个易于使用的CSV解析包，能够处理各种格式的CSV文件，并确保其高效运行。
+完成任务内容，创建一个易于使用的 CSV 解析包，能够处理各种格式的 CSV 文件，并确保其高效运行。
 
 ### 参考资料
 
@@ -582,11 +559,9 @@ Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问
 
 ### 产出
 
-将CSV包开源至 moonbit-community。
+将 CSV 包开源至 moonbit-community。
 
-
-
-## unicode工具函数包
+## unicode 工具函数包
 
 unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种函数来测试 Unicode 码点的属性。与 `x/encoding` 包不同，unicode-util 专注于提供对 Unicode 码点属性的查询和测试功能，而**不涉及编码和解码操作**。
 
@@ -618,13 +593,12 @@ unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种
 
 将包开源至 moonbit-community。
 
-
-
 ## dotenv 包
-    
+
 dotenv 文件（通常为 `.env`）被广泛用于存储环境变量，以便在开发和部署时能够灵活配置应用程序，而无需硬编码敏感信息。本项目希望在 MoonBit 语言中实现一个 dotenv 解析库，能够读取 `.env` 文件，并将其中的键值对加载到程序中。
 
 ### 任务内容
+
 1. 解析 `.env` 文件内容。
 2. 支持指定文件名，例如 `.env.production`。
 3. 其他复杂的功能，例如变量插值，环境变量的覆盖等。
