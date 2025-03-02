@@ -186,6 +186,10 @@ Formatter 的格式模仿 C/Cpp 或者其他语言均可，可以在 API 设计�
 - Nodejs path module: <https://nodejs.org/docs/latest/api/path.html>
 - Python pathlib: <https://docs.python.org/3/library/pathlib.html>
 
+### 产出
+
+<https://github.com/xunyoyo/pathlib>
+
 ## Luna Flow 科学计算生态链
 
 - Publisher: @Lampese @KCN-judu
