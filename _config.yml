@@ -16,10 +16,6 @@ defaults:
       toc_icon: "list"
       toc_sticky: true
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache

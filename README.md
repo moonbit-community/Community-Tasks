@@ -5,6 +5,8 @@ permalink: /
 toc: true  
 ---
 
+获得更好的阅读体验：https://moonbit-community.github.io/PLCT-J139-Tasks/
+
 该清单为 中科院软件所 PLCT 实验室甲辰计划 J139 MoonBit 软件开发实习生岗位的可做任务清单、技术栈要求及对应的参考资料。
 
 大家可以在群里和我说或者发 PR 来认领任务，任务的参与人数是不限的，但是要保证你们合作的成员之间有足够的沟通和交流。
