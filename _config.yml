@@ -1,0 +1,32 @@
+title: MoonBit 软件开发实习生任务清单
+description: 中科院软件所 PLCT 实验室甲辰计划 J139 MoonBit 软件开发实习生岗位的可做任务清单
+
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+minimal_mistakes_skin: "default"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc: true
+      toc_label: "目录"
+      toc_icon: "list"
+      toc_sticky: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+heading_anchors: true
+
+enable_copy_code_button: true
+
+aux_links_new_tab: true
+nav_sort: case_sensitive
