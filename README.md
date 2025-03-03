@@ -215,6 +215,7 @@ org link: [Luna Flow](https://github.com/Luna-Flow)
 **Luna Flow**主要分为三个阶段：
 
 - **Phase 1** 基础库：
+
   - luna-complex 和 luna-utils
   - linear-algebra 和 calculus-numerical
 
@@ -595,7 +596,7 @@ unicode 是一个用于处理 Unicode 码点属性的工具包，提供了多种
 
 ### 产出
 
-将包开源至 moonbit-community。
+https://github.com/moonbit-community/unicodeUtil
 
 ## dotenv 包
 
