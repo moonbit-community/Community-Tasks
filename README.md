@@ -499,6 +499,9 @@ MoonBit 官方提供了一个属性测试框架 moonbitlang/quickcheck，对于�
 
 ## Lazy Initialized Value
 
+- Publisher: -
+- Assignment: @CAIMEOX
+
 Lazy Initialized Value 是一种延迟初始化的值，只有在第一次访问时才会计算。这种技
 术不仅可以用来避免重复计算和实现懒加载，还可以用来处理循环依赖等问题。
 
