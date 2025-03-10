@@ -425,7 +425,7 @@ Rabbit-TEA 是一个基于 MoonBit 的前端框架，它能够配合 tailwindcss
 ## diet 包
 
 - Publisher: -
-- Assignment: -
+- Assignment: @CAIMEOX
 
 ### 简介
 
