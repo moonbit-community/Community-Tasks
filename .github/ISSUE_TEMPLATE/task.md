@@ -1,3 +1,11 @@
+---
+name: Task
+about: Create a Community Task
+title: ''
+assignees: ''
+
+---
+
 ### 简介
 
 ### 任务内容
